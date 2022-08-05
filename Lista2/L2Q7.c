@@ -6,7 +6,7 @@ int setBit(int nro, int bit)
     int mask=0;
 
     mask = 1<<bit;
-    nro=mask | nro;
+    nro=mask | nro; 
 
     return nro;
 
