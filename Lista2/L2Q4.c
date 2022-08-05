@@ -7,7 +7,7 @@ int main( void ) {
 
 
     scanf("%f", &entrada);
-
+ 
     inteiro=entrada;
     resto=entrada-inteiro;
 
