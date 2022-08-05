@@ -39,7 +39,7 @@ void decToBin(char vet[],int num) {
         vet[31]='1';
     }
 
-
+ 
  vet[32]='\0';
 }
 
