@@ -17,7 +17,7 @@ int main(void) {
         }
     }
 
-    printf("%d",maior);
+    printf("%d",maior); 
 
     return 0;
 
