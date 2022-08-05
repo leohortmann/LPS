@@ -20,3 +20,4 @@ int main(void) {
     scanf("%d %d",&num,&bit);
     printf("%d\n", isBit(num,bit) );
 }
+ 
