@@ -16,7 +16,7 @@ int resetBit(int nro, int bit)
 }
 
 int main(void) {
-    int num,bit;
+    int num,bit; 
     scanf("%d %d",&num,&bit);
     printf("%d\n",resetBit(num,bit));
 }
