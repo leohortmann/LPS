@@ -8,7 +8,7 @@ int main (void) {
 
     entrada=1;
 
-    while (entrada !=0) {
+    while (entrada !=0) { 
         scanf("%d", &entrada);
         if (entrada % 2 == 0 && entrada!=0){
             printf("%d par\n", entrada);
