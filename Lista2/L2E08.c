@@ -3,14 +3,26 @@
 int main(void)
 {
 
-    float entrada, resto;
-    int inteiro;
+    int entrada, maior, i;
 
-    scanf("%f", &entrada);
+    scanf("%d", &maior);
 
-    inteiro = entrada;
-    resto = entrada - inteiro;
+    for (i = 0; i <= 8; i++)
+    {
+        scanf("%d", &entrada);
 
-    printf("%d\n", inteiro);
-    printf("%.3f", resto);
+        if (entrada > maior)
+        {
+            maior = entrada;
+            entrada = 0;
+        }
+        else
+        {
+            entrada = 0;
+        }
+    }
+
+    printf("%d", maior);
+
+    return 0;
 }

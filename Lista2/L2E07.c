@@ -3,26 +3,10 @@
 int main(void)
 {
 
-    int entrada, maior, i;
+    int x = 5, y = -10;
+    printf("x=%d y=%d\n", x, y);
+    y += x + x + x;
+    x = x - x - x - x;
 
-    scanf("%d", &maior);
-
-    for (i = 0; i <= 8; i++)
-    {
-        scanf("%d", &entrada);
-
-        if (entrada > maior)
-        {
-            maior = entrada;
-            entrada = 0;
-        }
-        else
-        {
-            entrada = 0;
-        }
-    }
-
-    printf("%d", maior);
-
-    return 0;
+    printf("x=%d y=%d\n", x, y);
 }

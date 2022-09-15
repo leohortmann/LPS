@@ -3,30 +3,20 @@
 int main(void)
 {
 
-    int i, x, midNum, maiorNum, menorNum;
-    scanf("%d", &midNum);
-    maiorNum = midNum;
-    menorNum = midNum;
+    int entrada;
 
-    while (i < 2)
+    entrada = 1;
+
+    while (entrada != 0)
     {
-        scanf("%d", &midNum);
-        if (midNum > maiorNum)
+        scanf("%d", &entrada);
+        if (entrada % 2 == 0 && entrada != 0)
         {
-            x = maiorNum;
-            maiorNum = midNum;
-            midNum = x;
+            printf("%d par\n", entrada);
         }
-        if (midNum < menorNum)
+        else if (entrada % 2 != 0 && entrada != 0)
         {
-            x = menorNum;
-            menorNum = midNum;
-            midNum = x;
+            printf("%d impar\n", entrada);
         }
-        i++;
     }
-
-    printf("%d\n", menorNum);
-    printf("%d\n", midNum);
-    printf("%d", maiorNum);
 }
